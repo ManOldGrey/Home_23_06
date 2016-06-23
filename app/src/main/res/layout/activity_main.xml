@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rat.myapplication3.MainActivity"
+    android:weightSum="1"
+    android:background="#cc0202">
+
+    <!--android:layout_gravity="bottom|center_horizontal"-->
+        <!--android:layout_below="@+id/some_id1"/>-->
+        <!--android:background="#8faaaaaa"/>-->
+
+    <!--<View-->
+
+    <!--android:id="@id/some_id1"-->
+        <!--LiearLayout
+        android:layout_width="100dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:layout_below="@+id/some_id2"-->
+        <!--android:background="@android:color/holo_blue_dark" />-->
+
+    <!--<Button-->
+        <!--android:id="@id/some_id2"-->
+        <!--android:layout_width="100dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:layout_gravity="left|top" />-->
+    <TableLayout
+        android:layout_width="175dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|top"
+        android:background="#679a02"
+        android:baselineAligned="false">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView android:id="@+id/imageView"
+                android:layout_width="90dp"
+                android:layout_height="90dp" />
+        </TableRow>
+    </TableLayout>
+</FrameLayout>
